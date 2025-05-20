@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        legend {
+            font-weight: bold;
+            color: #333;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 12px;
+            cursor: pointer;
+            width: 48%;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <form method="get">
+            <fieldset>
+                <legend>Welcome to My School Management</legend>
+                <div class="button-container">
+                    <button type="submit" formaction="add">Add</button>
+                    <button type="submit" formaction="display">Display</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
